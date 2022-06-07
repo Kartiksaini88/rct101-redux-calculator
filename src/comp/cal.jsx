@@ -11,10 +11,10 @@ export const Calculator = ()=>{
     const dispatch = useDispatch()
 
     let handlecount = (value)=>{
-        if(counter==0 || counter>=0){
             dispatch(addcount(value))
-        }  
     }
+    
+    
     let [add , setadd] = useState(0)
 
     let hadnleadd = (value)=>{
